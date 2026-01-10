@@ -56,6 +56,7 @@ src/
 ### Repository Pattern
 
 Cada agregado possui:
+
 - Interface do repositório na camada de domínio
 - Implementação concreta usando Sequelize na camada de infraestrutura
 - Operações CRUD: `create`, `update`, `find`, `findAll`
@@ -117,6 +118,7 @@ Execute `npm test` para rodar todos os testes.
 ## Padrões de Código
 
 O projeto utiliza:
+
 - **ESLint**: Para análise estática e qualidade de código
 - **Prettier**: Para formatação consistente
 - **Commitlint**: Para padronização de mensagens de commit (Conventional Commits)
